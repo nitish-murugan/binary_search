@@ -1,6 +1,6 @@
 def formula(low,high):
     return (low+int(((high - low)/2)))
-lst = [2,5,8,12,16,23,38,56,72,91].sort()
+lst = sorted([2,5,8,12,16,23,38,56,72,91])
 key = int(input("Enter the key element => "))
 count = 0
 flag = 0
